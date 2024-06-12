@@ -23,4 +23,7 @@
 ![postgres][PostgreSQL__badge]
 
 
-
+<p align="center">
+    <a href="#started">Getting Started</a> |
+    <a href="#routes">Endpoints</a>
+</p>
