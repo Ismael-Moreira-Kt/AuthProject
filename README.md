@@ -28,6 +28,7 @@
     <a href="#routes">Endpoints</a>
 </p>
 
+<b>AuthProject is a simple authentication project using Spring Security.</b>
+
 
 <h2 id="started">Getting Started</h2>
-<b>AuthProject is a simple authentication project using Spring Security.</b>
