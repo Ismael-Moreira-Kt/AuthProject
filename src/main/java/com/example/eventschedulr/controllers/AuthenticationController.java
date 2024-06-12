@@ -1,6 +1,6 @@
 package com.example.eventschedulr.controllers;
 
-import com.example.eventschedulr.dtos.user.AuthResponse;
+import com.example.eventschedulr.dtos.user.AuthResponseDTO;
 import com.example.eventschedulr.dtos.user.LoginDTO;
 import com.example.eventschedulr.dtos.user.RegisterDTO;
 import com.example.eventschedulr.entities.user.UserEntity;
@@ -37,7 +37,7 @@ public class AuthenticationController {
 
         var token = tokenService.generateToken((UserEntity) auth.getPrincipal());
 
-        return ResponseEntity.ok(new AuthResponse(token));
+        return ResponseEntity.ok(new AuthResponseDTO(token));
     }
 
     @PostMapping("/register")
