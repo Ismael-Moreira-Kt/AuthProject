@@ -27,3 +27,7 @@
     <a href="#started">Getting Started</a> |
     <a href="#routes">Endpoints</a>
 </p>
+
+
+<h2 id="started">Getting Started</h2>
+<b>AuthProject is a simple authentication project using Spring Security.</b>
