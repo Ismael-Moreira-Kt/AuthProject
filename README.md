@@ -59,3 +59,24 @@
 ```bash
     java -jar target/eventschedulr-0.0.1-SNAPSHOT.jar
 ```
+
+
+<h2 id="routes">Endpoints</h2>
+
+<table align="center">
+    <tr>
+        <th>Method</th>
+        <th>Path</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <th>POST</th>
+        <th>/auth/register</th>
+        <th><a href="register">Register details</a></th>
+    </tr>
+    <tr>
+        <th>POST</th>
+        <th>/auth/login</th>
+        <th><a href="register">Login details</a></th>
+    </tr>
+</table>
