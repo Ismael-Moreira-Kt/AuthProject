@@ -39,3 +39,23 @@
     <li><b><a href="https://www.postgresql.org/download/">PostgreSQL:</a></b>15.6-0</li>
     <li><b><a href="https://www.git-scm.com/downloads">Git:</a></b>2.39.2</li>
 </ul>
+
+<h3>Cloning</h3>
+
+```bash
+    git clone https://github.com/Ismael-Moreira-Kt/AuthProject
+```
+
+<h3>Starting</h3>
+
+<h5>Build the project</h5>
+
+```bash
+    mvn clean install
+```
+
+<h5>Run the project</h5>
+
+```bash
+    java -jar target/eventschedulr-0.0.1-SNAPSHOT.jar
+```
