@@ -32,3 +32,10 @@
 
 
 <h2 id="started">Getting Started</h2>
+<h3>Prerequisites</h3>
+<ul>
+    <li><b><a href="https://www.oracle.com/java/technologies/downloads/">Java:</a></b>17</li>
+    <li><b><a href="https://maven.apache.org/download.cgi">Maven:</a></b>3.8.7</li>
+    <li><b><a href="https://www.postgresql.org/download/">PostgreSQL:</a></b>15.6-0</li>
+    <li><b><a href="https://www.git-scm.com/downloads">Git:</a></b>2.39.2</li>
+</ul>
