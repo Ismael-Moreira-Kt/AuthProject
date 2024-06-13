@@ -100,3 +100,22 @@ To use this route, you need to send a json as the request body.
         "role": "USER"
     }
 ```
+
+<h5 id="login">Login Details</h5>
+
+This route also receives a json in the body of the request.
+
+```json
+    {
+        "login": "Ismael-Moreira-Kt",
+        "password": "IAmVeryBeautiful",
+    }
+```
+
+As a result, it will return a token that will be needed to make other requests.
+
+```json
+    {
+	    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoLWFwaSIsInN1YiI6IklzbWFlbE1vcmVpcmEiLCJleHAiOjE3MTgyMzU3NDd9.1fWnIAwl-ejPV8sGGxUlahJc3jfntd1yPJ1rTjoP6B8"
+    }
+```
