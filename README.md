@@ -80,3 +80,23 @@
         <th><a href="register">Login details</a></th>
     </tr>
 </table>
+
+<h5 id="register">Register Details</h5>
+
+To use this route, you need to send a json as the request body.
+
+```json
+    {
+        "login": "Ismael-Moreira-Kt",
+        "password": "IAmVeryBeautiful",
+        "role": "ADMIN"
+    }
+
+    // OR
+
+    {
+        "login": "Ismael-Moreira-JS",
+        "password": "NAN",
+        "role": "USER"
+    }
+```
